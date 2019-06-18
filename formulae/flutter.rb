@@ -7,6 +7,8 @@ class Flutter < Formula
     version "stable"
   end
 
+  bottle :unneeded
+
   def install
     system "./bin/flutter"
     allfiles = File.join(buildpath, "**", "{*,.*}")
