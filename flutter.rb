@@ -1,4 +1,5 @@
 class Flutter < Formula
+  require 'json'
   desc "The Flutter SDK (Unofficial Homebrew Formula)"
   homepage "https://flutter.dev"
 
